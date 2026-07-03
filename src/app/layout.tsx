@@ -23,6 +23,11 @@ export const metadata: Metadata = {
     title: "WorshipCenter",
     description: "Worship planning without the chaos.",
   },
+  icons: {
+    icon: [
+      { url: '/icon.png', sizes: 'any', type: 'image/png' },
+    ],
+  },
 };
 
 export default function RootLayout({
